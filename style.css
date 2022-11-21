@@ -1,0 +1,73 @@
+#navbar {
+    overflow: hidden;
+    
+    background-color: #c26e1f;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color:  black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+  }
+ 
+  nav{
+    position: fixed;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+.demo1{
+    width: 100vw;
+    height: 50vh;
+}
+.home{
+  width: 100%;
+  height: auto;
+}
+
+#screen{
+    text-align: center;
+    color: 	#c26e1f;
+    margin-left: auto;
+    font-size: 60px;
+    margin-bottom: 300px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 600px;
+    
+}
+.lpu-logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+.register{
+  border: none;
+
+  border-radius: 10px;
+  height: 60px;
+  width: 130px;
+  font-size: 30px;
+  color: white;
+  background-color: #c26e1f;
+
+}
